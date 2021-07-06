@@ -1,0 +1,252 @@
+* {
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0%;
+}
+.top {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(4, 71, 73, 0.459),
+      rgba(6, 180, 211, 0.452)
+    ),
+    url(57.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0%;
+}
+
+.top-side {
+  flex: 50%;
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+}
+#written-side {
+  padding-top: 10%;
+  padding-left: 7.5%;
+}
+h1 {
+  font-family: sans-serif;
+  padding-bottom: 50px;
+  font-size: 55px;
+  font-weight: 700;
+}
+img {
+  padding-right: 40px;
+  width: 100%;
+  height: 100%;
+}
+p {
+  color: darkolivegreen;
+  font-size: 20px;
+}
+.button {
+  color: whitesmoke;
+
+  text-decoration: none;
+  font-size: 40px;
+  background-image: linear-gradient(45deg, orange, red);
+  box-shadow: 12px 8px 33px grey;
+  border: none;
+  padding: 20px 35px;
+  text-align: center;
+  display: inline-block;
+  margin: 75px 10px;
+  cursor: pointer;
+  border-radius: 100px;
+
+  transition: 0.2s;
+}
+.button:hover {
+  transform: translateY(0) scale(1.2);
+  background-image: linear-gradient(45deg, red, orange);
+}
+.high-light {
+  font-family: cursive;
+  color: red;
+}
+.second {
+  width: 100%;
+  height: 105vh;
+  display: flex;
+
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(47, 8, 63, 0.445),
+      rgba(255, 0, 234, 0.397)
+    ),
+    url(7.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0%;
+}
+.second-side {
+  flex: 50%;
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+}
+#second-written-side {
+  padding-top: 10%;
+  padding-right: 6.5%;
+}
+#second-pic {
+  padding: 60px 30px 0px 120px;
+}
+.third {
+  width: 100%;
+  height: 130vh;
+  background-image: linear-gradient(
+      rgba(247, 247, 247, 0.999),
+      rgba(255, 252, 255, 0.144)
+    ),
+    url(Cover7.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0%;
+}
+.third-side {
+  background-color: white;
+  border-radius: 25px;
+  flex: 1;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px gray;
+  margin: 30px;
+  padding: 10px;
+  height: 80vh;
+  width: 30%;
+  text-align: left;
+  justify-content: center;
+}
+.food-pic {
+  width: 100%;
+  height: 60%;
+  padding: 5px;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 27px;
+}
+.recipie-gap {
+  display: flex;
+}
+.my-recipie {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 30px;
+}
+.my-recipie-gap {
+  padding-top: 40px;
+  font-size: 50px;
+}
+.recipie-known {
+  color: black;
+}
+.last {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  background-image: linear-gradient(
+      rgba(47, 8, 63, 0.445),
+      rgba(255, 0, 234, 0.397)
+    ),
+    url(Cover4.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0%;
+}
+.last-side {
+  background-color: lightsteelblue;
+  box-shadow: 7px 7px 17px blueviolet;
+  border-radius: 20px;
+  width: 80%;
+  height: 30vh;
+  margin-left: 10%;
+  margin-top: 15%;
+  display: flex;
+}
+.likes {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 60px;
+  padding-left: 11.5%;
+  padding-right: 10%;
+  padding-top: 30px;
+}
+h3 {
+  font-family: sans-serif;
+  font-size: 60px;
+}
+h4 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+footer {
+  width: 100%;
+  height: 30vh;
+  background-color: black;
+  text-align: center;
+}
+.last-food {
+  font-family: sans-serif;
+  color: orangered;
+}
+.network {
+  color: #5b5b5b;
+}
+.finish {
+  color: #fff;
+}
+nav {
+  background-color: paleturquoise;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+  background-color: orangered;
+  margin: 0%;
+  padding: 0%;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+
+  padding: 50px 25px 40px 100px;
+}
+nav ul li:hover {
+  align-items: center;
+  width: 30%;
+  background-color: #5b5b5b;
+  color: white;
+}
+
+.navigation {
+  background-color: black;
+  display: flex;
+
+  width: 100%;
+}
+.logo {
+  padding-left: 5px;
+  font-family: sans-serif;
+  color: orangered;
+}
+.network {
+  padding-left: 5px;
+  font-family: sans-serif;
+}
